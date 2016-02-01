@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netflix", "Netflix\Netflix.csproj", "{BECBFC07-8682-48E3-9716-24A473A07FFA}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{5E58AFDF-5C09-40E7-8934-607790D24D22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BECBFC07-8682-48E3-9716-24A473A07FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECBFC07-8682-48E3-9716-24A473A07FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BECBFC07-8682-48E3-9716-24A473A07FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BECBFC07-8682-48E3-9716-24A473A07FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E58AFDF-5C09-40E7-8934-607790D24D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E58AFDF-5C09-40E7-8934-607790D24D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E58AFDF-5C09-40E7-8934-607790D24D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E58AFDF-5C09-40E7-8934-607790D24D22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
