@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Netflix
 {
-    class Episode
+    public class Episode
     {
         public int rating;
         public Episode(int rating)

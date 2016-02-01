@@ -20,6 +20,11 @@ namespace Netflix
             IT.Name = "IT";
             nemo.Name = "Finding Nemo";
 
+            scottP.rating = 5;
+            superman.rating = 4;
+            IT.rating = 3;
+            nemo.rating = 4;
+
             Genre comedy = new Genre();
             Genre scary = new Genre();
             Genre funny = new Genre();

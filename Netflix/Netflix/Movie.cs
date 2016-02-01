@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Netflix
 {
-    class Movie : Title
+    public class Movie : Title
     {
         public int duration;
         public Movie(string name, int duration)
