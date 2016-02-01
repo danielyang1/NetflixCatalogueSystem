@@ -38,7 +38,7 @@ namespace Netflix.Tests
         {
             TV_Show himym = new TV_Show("How I Met Your Mother");
             Episode one = new Episode(5);
-            Episode two = new Episode(4);
+            Episode two = new Episode(3);
             himym.ListEpisodes.Add(one);
             himym.ListEpisodes.Add(two);
             Assert.AreEqual(himym.Name, "How I Met Your Mother");
@@ -48,10 +48,10 @@ namespace Netflix.Tests
         {
             TV_Show himym = new TV_Show("How I Met Your Mother");
             Episode one = new Episode(5);
-            Episode two = new Episode(4);
+            Episode two = new Episode(3);
             himym.ListEpisodes.Add(one);
             himym.ListEpisodes.Add(two);
-            Assert.AreEqual(two.rating, 4);
+            Assert.AreEqual(two.rating, 3);
         }
         [TestMethod()]
         public void Test6()

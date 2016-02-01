@@ -16,9 +16,9 @@ namespace Netflix
             Movie nemo = new Movie("Finding Nemo", 89);
 
             scottP.Name = "Scott Pilgrim vs the World";
-            superman.Name = "Superman";
             IT.Name = "IT";
             nemo.Name = "Finding Nemo";
+            superman.Name = "Superman";
 
             scottP.rating = 5;
             superman.rating = 4;
@@ -37,26 +37,28 @@ namespace Netflix
 
             funny = (comedy+scary);
 
-            Console.WriteLine(scary.MyTitles[0]);
-            Console.WriteLine(scary.MyTitles[1]);
-            Console.WriteLine("---");
             Console.WriteLine(comedy.MyTitles[0]);
             Console.WriteLine(comedy.MyTitles[1]);
+            Console.WriteLine("---");
+            Console.WriteLine(scary.MyTitles[0]);
+            Console.WriteLine(scary.MyTitles[1]);
             Console.WriteLine("---");
             Console.WriteLine(funny.MyTitles[0]);
             Console.WriteLine(funny.MyTitles[1]);
             Console.WriteLine(funny.MyTitles[2]);
             Console.WriteLine(funny.MyTitles[3]);
+            Console.WriteLine("---");
 
             View.printGenreTitle(comedy);
 
             TV_Show himym = new TV_Show("How I Met Your Mother");
             Episode one = new Episode(5);
-            Episode two = new Episode(4);
+            Episode two = new Episode(3);
             himym.ListEpisodes.Add(one);
             himym.ListEpisodes.Add(two);
             Console.WriteLine("Name of TV Show {0}", himym);
-            Console.WriteLine(himym.ListEpisodes[0].rating);
+            Console.WriteLine("Rating {0} ", himym.ListEpisodes[0].rating);
+            Console.WriteLine("Rating {0} ", himym.ListEpisodes[1].rating);
             Console.WriteLine("Average Rating "+himym.rating);
 
             Console.ReadKey();
